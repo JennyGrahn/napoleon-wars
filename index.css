@@ -1,3 +1,42 @@
 header {
 background-color: #002654;
 }
+
+h1, p {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    font-size: 48px;
+    text-align: center;
+    padding-top: 87px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.undertext {
+    font-size: 48;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 75px;
+}
+
+#nav {
+    text-align: center;
+    color: white;
+    width: 1728px;
+    height: 150px;
+}
+
+nav a {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+footer {
+    background-color: #002654;
+    width: 1728;
+    height: 77;
+ }
