@@ -2,36 +2,42 @@ body{
     margin: 0;
     margin-top: 0;
 }
+
+/*For the header*/
+
 header {
 background-color: #002654;
+width: 100%;
 }
 
-h1, p {
-    font-family: 'Josefin Sans', sans-serif;
+
+h1 {
+    font-size: 48px;
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 87px;
+    padding-left: 300px;
+    padding-right: 300px;
     color: white;
 }
 
-h1{
-    font-size: 48px;
-    text-align: center;
-    padding-top: 87px;
-    padding-left: 500px;
-    padding-right: 500px;
-}
-
-.undertext {
+#undertext {
     font-size: 48;
-    padding-left: 500px;
-    padding-right: 500px;
-    padding-top: 40px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 40px
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    text-align: center;
 }
 
+/*For the header*/
+
+/*For the navbar*/
 .nav {
     text-align: center;
     color: white;
 }
-
 nav a {
     color: white;
     font-family: 'Josefin Sans', sans-serif;
@@ -57,8 +63,43 @@ nav a:hover{
 padding-right: 2cm;
 }
 
+#welcome {
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*For the navbar*/
+
+/*For the home-mainpage*/
+
+#napoleonhome {
+    width: 50%;
+    height: 50%;
+}
+
+#introtext {
+    font-family: 'Libre Baskerville', serif;
+    width: 50%;
+    height: 50%,
+}
+/*For the home-mainpage*/
+
+/* For the timeline */
+#sign-event {
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+}
+
+#text {
+    font-family: 'Libre Baskerville', serif; 
+}
+#townsquare {
+    height: 40%;
+    width: 40%; 
+}
+
+/* For the timeline */
+
 footer {
     background-color: #002654;
-    width: 1728;
+    width: 100%;
    
  }
