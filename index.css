@@ -65,6 +65,7 @@ padding-right: 2cm;
 
 #welcome {
     font-family: 'Josefin Sans', sans-serif;
+    color: black;
 }
 /*For the navbar*/
 
@@ -77,23 +78,37 @@ padding-right: 2cm;
 
 #introtext {
     font-family: 'Libre Baskerville', serif;
-    width: 50%;
-    height: 50%,
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    border
 }
+
 /*For the home-mainpage*/
 
 /* For the timeline */
 #sign-event {
     font-family: 'Josefin Sans', sans-serif;
     color: black;
+    text-align: center;
 }
 
 #text {
-    font-family: 'Libre Baskerville', serif; 
+    font-family: 'Libre Baskerville', serif;    
+}
+
+.red-box-left{
+    margin-right: 50%;
+    padding-top: 10%;
+}
+
+.red-box-right{
+    margin-left: 50%;
+    padding-top: 10%;
 }
 #townsquare {
-    height: 40%;
-    width: 40%; 
+    width: 50%;
+    
 }
 
 /* For the timeline */
