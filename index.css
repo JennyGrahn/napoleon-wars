@@ -1,6 +1,6 @@
 body{
-    margin: 0;
-    margin-top: 0;
+    margin: auto;
+    background-color: white;
 }
 
 /*For the header*/
@@ -66,27 +66,44 @@ padding-right: 2cm;
 
 }
 
-#welcome {
-    font-family: 'Josefin Sans', sans-serif;
-    color: black;
-}
+
+
 /*For the navbar*/
 
 /*For the home-mainpage*/
 
+#welcome {
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    margin-top: 40px;
+}
+#introtext {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: large;
+    margin-left: 300px;
+    margin-right: 300px; 
+    margin-bottom: 40px;
+   
+}
+
+#textlink {
+    text-decoration: none;
+    a:hover{
+        color: red;
+    }
+}
+
+ 
+
 #napoleonhome {
     width: 50%;
     height: 50%;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    align-content: center;
 }
-
-#introtext {
-    font-family: 'Libre Baskerville', serif;
-    border-style: solid;
-    border-color: red;
-    border-width: 5px;
-    border
-}
-
 /*For the home-mainpage*/
 
 /* For the timeline */
